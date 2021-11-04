@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Facebook">
+
+	<listeners>
+		<listener class-name="commons.MethodListener" />
+	</listeners>
+	
+	<parameter name ="url" value = "https://www.facebook.com/r.php" />
+	
+	<test name="Run on Chrome">
+	<parameter name ="browser" value ="chrome"/>
+		<classes>
+			<class name="com.facebook.resgiter.Level_11_Register_Login_Element_Undisplayed" />
+		</classes>
+	</test>
+</suite> 

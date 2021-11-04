@@ -1,0 +1,12 @@
+{
+	"firstname":"John",
+	"lastname":"Terry",
+	"fullname":"John Terry",
+	"username":"johnterry",
+	"password":"John111@@@",
+	"ContacDetail":{
+		"editFirstName":"Thierry",
+		"editLastName":"Henry"
+	}
+}
+	

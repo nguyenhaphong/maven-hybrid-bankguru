@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Nop Commerce">
+	<parameter name ="url" value = "https://demo.nopcommerce.com/" />
+	
+	<listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+	</listeners>
+	
+	
+	<test name="Run on FIREFOX">
+	<parameter name ="browser" value ="firefox"/>
+		<classes>
+			<class name="com.nopcommerce.login.Level_13_Register_Login_Log_Report" />
+		</classes>
+	</test>
+</suite> 
